@@ -1,0 +1,7 @@
+repos:
+-   repo: https://github.com/ambv/black
+    rev: master
+    hooks:
+    - id: black
+      exclude: versioneer.py ^ldndctools/_version.py
+      language_version: python3.8
